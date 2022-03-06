@@ -76,7 +76,7 @@
             "name": "Ajang Kreasi dan Seni (AKSEN)",
             "type": "E-ticketing",
             "year": 2019,
-            "organization": "OSIS SMAN 3 Surakarta",
+            "organization": "OSIS & Panitia AKSEN SMAN 3 Surakarta",
             "clients": null,
             "roles": ["Ticketing Staff", "Software Developer", "Individual"],
             "techs": ["PHP", "MySQL", "CodeIgniter 3", "W3.CSS", "Vue.js", "Chart.js", "QR-Code"],
