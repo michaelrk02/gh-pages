@@ -19,20 +19,30 @@ export default class Background extends React.Component {
                             <div className="s-project-year">{project.year}</div>
                         </div>
                         <div className="s-project-type">{project.type}</div>
-                        <div className="s-project-info">
-                            <div className="s-project-key">Organizer</div>
-                            <div className="s-project-value">{project.organization}</div>
-                        </div>
+                        {(project.organization !== null) &&
+                            <div className="s-project-info">
+                                <div className="s-project-key">Organization</div>
+                                <div className="s-project-value">{project.organization}</div>
+                            </div>
+                        }
+                        {(project.clients !== null) &&
+                            <div className="s-project-info">
+                                <div className="s-project-key">Clients</div>
+                                <div className="s-project-value">
+                                    <div className="s-project-enum">{project.clients.map((client) => <div className="s-project-client"><i className="fa fa-tag"></i> {client}</div>)}</div>
+                                </div>
+                            </div>
+                        }
                         <div className="s-project-info">
                             <div className="s-project-key">Roles</div>
                             <div className="s-project-value">
-                                <div className="s-project-roles">{project.roles.map((role) => <div className="s-project-role"><i className="fa fa-tag"></i> {role}</div>)}</div>
+                                <div className="s-project-enum">{project.roles.map((role) => <div className="s-project-role"><i className="fa fa-tag"></i> {role}</div>)}</div>
                             </div>
                         </div>
                         <div className="s-project-info">
                             <div className="s-project-key">Technologies</div>
                             <div className="s-project-value">
-                                <div className="s-project-techs">{project.techs.map((tech) => <div className="s-project-tech"><i className="fa fa-tag"></i> {tech}</div>)}</div>
+                                <div className="s-project-enum">{project.techs.map((tech) => <div className="s-project-tech"><i className="fa fa-tag"></i> {tech}</div>)}</div>
                             </div>
                         </div>
                         <div className="s-project-buttons">

@@ -25,7 +25,7 @@ p { @apply my-lg }
 a { @apply text-secondary hover:cursor-pointer; }
 a.s-bare { @apply text-inherit !important; }
 
-.s-button { @apply inline-block rounded-full m-xs p-md font-bold; }
+.s-button { @apply inline-block rounded-full m-xs p-md font-bold shadow-lg hover:shadow-xl hover:bg-secondary/50; }
 .s-button-primary { @apply s-button bg-primary text-white; }
 .s-button-secondary { @apply s-button bg-secondary text-white; }
 .s-button-tertiary { @apply s-button bg-tertiary text-white; }
@@ -52,10 +52,11 @@ a.s-bare { @apply text-inherit !important; }
 .s-project-info { @apply my-md flex flex-col sm:flex-row justify-between; }
 .s-project-key { @apply self-center font-bold; }
 .s-project-value { @apply self-center; }
-.s-project-roles { @apply flex flex-col sm:flex-row flex-wrap; }
-.s-project-role { @apply bg-tertiary text-white rounded-full m-xs p-sm; }
-.s-project-techs { @apply flex flex-col sm:flex-row flex-wrap; }
-.s-project-tech { @apply bg-gray text-white rounded-full m-xs p-sm; }
+.s-project-enum { @apply flex flex-col sm:flex-row flex-wrap; }
+.s-project-element { @apply rounded-full m-xs p-sm; }
+.s-project-client { @apply s-project-element bg-secondary text-white }
+.s-project-role { @apply s-project-element bg-tertiary text-white; }
+.s-project-tech { @apply s-project-element bg-gray text-white; }
 .s-project-buttons { @apply mb-md mt-xl; }
 .s-footer { @apply text-center p-md bg-white/30 mt-lg text-white; }
 .s-footer-text { @apply text-xs sm:text-sm; }
