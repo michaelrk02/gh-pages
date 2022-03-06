@@ -1,0 +1,92 @@
+{
+    "projects": [
+        {
+            "name": "Pemilu Raya Mahasiswa",
+            "type": "E-voting",
+            "year": 2021,
+            "organization": "KPR FMIPA UNS",
+            "roles": ["Operations & Publications Director", "Software Developer", "Individual"],
+            "techs": ["PHP", "MySQL", "CodeIgniter 4", "Materialize CSS", "jQuery", "DataTables", "Chart.js", "Cryptographic Hash", "Message Authentication Code"],
+            "image": "pemiluraya.jpg",
+            "projectURL": "https://github.com/michaelrk02/pemira",
+            "demo": null
+        },
+        {
+            "name": "P!NGFEST (E-ticketing)",
+            "type": "E-ticketing",
+            "year": 2021,
+            "organization": "Himpunan Mahasiswa Informatika UNS",
+            "roles": ["Technology Director", "Lead Software Developer", "Team"],
+            "techs": ["PHP", "MySQL", "CodeIgniter 3", "Bootstrap CSS", "jQuery", "AdminLTE", "SVG", "Animations", "JSON Web Token", "Single-Sign-On (SSO)"],
+            "image": "pingfest-ticketing.jpg",
+            "projectURL": "https://github.com/michaelrk02/pingfest",
+            "demo": null
+        },
+        {
+            "name": "P!NGFEST (CBT, based on ZLearn Project)",
+            "type": "Computer-Based Test",
+            "year": 2021,
+            "organization": "Himpunan Mahasiswa Informatika UNS",
+            "roles": ["Technology Director", "Lead Software Developer", "Individual"],
+            "techs": ["PHP", "MySQL", "CodeIgniter 3", "Bootstrap CSS", "jQuery", "pdf.js", "JSON Web Token", "Single-Sign-On (SSO)"],
+            "image": "pingfest-cbt.jpg",
+            "projectURL": "https://github.com/michaelrk02/zlearn",
+            "demo": null
+        },
+        {
+            "name": "Guru Favorit (GURFAV)",
+            "type": "E-voting",
+            "year": 2019,
+            "organization": "MPK SMAN 3 Surakarta",
+            "roles": ["Software Developer", "Individual", "Outsourcing"],
+            "techs": ["PHP", "MySQL", "CodeIgniter 3", "Spectre CSS", "Vue.js", "GD Plugin"],
+            "image": "gurfav.jpg",
+            "projectURL": "https://github.com/michaelrk02/gurfav",
+            "demo": null
+        },
+        {
+            "name": "Pemilihan Ketua OSIS (PEMILOS, E-voting)",
+            "type": "E-voting",
+            "year": 2019,
+            "organization": "MPK SMAN 3 Surakarta",
+            "roles": ["Software Developer", "Individual", "Outsourcing"],
+            "techs": ["PHP", "MySQL", "CodeIgniter 3", "W3.CSS", "Vue.js"],
+            "image": "pemilos-voting.jpg",
+            "projectURL": "https://github.com/michaelrk02/pemilos",
+            "demo": null
+        },
+        {
+            "name": "Pemilihan Ketua OSIS (PEMILOS, CBT)",
+            "type": "Computer-Based Test",
+            "year": 2019,
+            "organization": "MPK SMAN 3 Surakarta",
+            "roles": ["Software Developer", "Individual", "Outsourcing"],
+            "techs": ["PHP", "MySQL", "CodeIgniter 3", "W3.CSS", "Vue.js", "Mathjax"],
+            "image": "pemilos-cbt.jpg",
+            "projectURL": "https://github.com/michaelrk02/pemilos-cbt",
+            "demo": null
+        },
+        {
+            "name": "Ajang Kreasi dan Seni (AKSEN)",
+            "type": "E-ticketing",
+            "year": 2019,
+            "organization": "OSIS SMAN 3 Surakarta",
+            "roles": ["Ticketing Staff", "Software Developer", "Individual"],
+            "techs": ["PHP", "MySQL", "CodeIgniter 3", "W3.CSS", "Vue.js", "Chart.js", "QR-Code"],
+            "image": "aksen.jpg",
+            "projectURL": "https://github.com/michaelrk02/aksen-old",
+            "demo": null
+        },
+        {
+            "name": "Tank vs. Monsters RELOADED",
+            "type": "2D Top-Down Shooter Game",
+            "year": 2018,
+            "organization": "Administrator SMAN 3 Surakarta",
+            "roles": ["Team Leader", "Game Programmer"],
+            "techs": ["C#", "Unity Engine"],
+            "image": "tvmr.jpg",
+            "projectURL": "https://github.com/michaelrk02/tvmr-scripts",
+            "demo": null
+        }
+    ]
+}

@@ -1,0 +1,62 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@font-face {
+    font-family: 'Roboto';
+
+    /* webpackIgnore: true */
+    src: url('Roboto-Regular.ttf');
+}
+
+* { @apply font-normal tracking-wide text-sm sm:text-base; }
+
+body { @apply bg-primary text-white; }
+
+h1, h2, h3, h4, h5, h6 { @apply font-bold; }
+h1 { @apply text-5xl sm:text-6xl; }
+h2 { @apply text-4xl sm:text-5xl; }
+h3 { @apply text-3xl sm:text-4xl; }
+h4 { @apply text-2xl sm:text-3xl; }
+h5 { @apply text-xl sm:text-2xl; }
+h6 { @apply text-lg sm:text-xl; }
+
+p { @apply my-lg }
+a { @apply text-secondary hover:cursor-pointer; }
+a.s-bare { @apply text-inherit !important; }
+
+.s-button { @apply inline-block rounded-full m-xs p-md font-bold; }
+.s-button-primary { @apply s-button bg-primary text-white; }
+.s-button-secondary { @apply s-button bg-secondary text-white; }
+.s-button-tertiary { @apply s-button bg-tertiary text-white; }
+.s-card { @apply bg-white text-black rounded-xl shadow-xl p-lg; }
+.s-container { @apply container mx-auto; }
+.s-nav-bar { @apply flex flex-col sm:justify-between sm:flex-row backdrop-blur-sm bg-white/30; }
+.s-nav-header { @apply flex flex-row justify-between p-lg; }
+.s-nav-brand { @apply font-bold; }
+.s-nav-toggle { @apply sm:hidden; }
+.s-nav-menu { @apply hidden; @apply sm:block !important; }
+.s-nav-items { @apply sm:flex sm:flex-row sm:p-lg; }
+.s-nav-item { @apply block mx-md my-sm sm:my-0 p-sm sm:p-0 bg-white/30 sm:bg-inherit rounded-lg sm:rounded-none sm:border-b-8 sm:border-transparent sm:hover:border-secondary hover:ring-4 hover:ring-secondary sm:hover:ring-0; }
+.s-about-card { @apply flex flex-col sm:flex-row justify-between s-card my-sm; @apply shadow-md bg-tertiary !important; }
+.s-about-key { @apply self-center text-secondary font-bold; }
+.s-about-value { @apply self-center text-white font-bold; }
+.s-skills-card { @apply s-card; @apply bg-tertiary text-white !important; }
+.s-skills-container { @apply flex flex-row flex-wrap; }
+.s-skills-item { @apply bg-secondary text-white rounded-full m-xs p-sm shadow-md; }
+.s-project-image { @apply my-md; }
+.s-project-header { @apply my-md flex flex-row justify-between; }
+.s-project-title { @apply text-xl font-bold text-secondary; }
+.s-project-year { @apply text-xl text-black }
+.s-project-type { @apply font-bold mt-xs mb-md text-gray }
+.s-project-info { @apply my-md flex flex-col sm:flex-row justify-between; }
+.s-project-key { @apply self-center font-bold; }
+.s-project-value { @apply self-center; }
+.s-project-roles { @apply flex flex-col sm:flex-row flex-wrap; }
+.s-project-role { @apply bg-tertiary text-white rounded-full m-xs p-sm; }
+.s-project-techs { @apply flex flex-col sm:flex-row flex-wrap; }
+.s-project-tech { @apply bg-gray text-white rounded-full m-xs p-sm; }
+.s-project-buttons { @apply mb-md mt-xl; }
+.s-footer { @apply text-center p-md bg-white/30 mt-lg text-white; }
+.s-footer-text { @apply text-xs sm:text-sm; }
+

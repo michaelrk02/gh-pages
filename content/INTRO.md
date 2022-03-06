@@ -1,0 +1,1 @@
+*I am **Michael Raditya Krisnadhi**, a software engineer and computer science enthusiast. My coding journey started when I was 12 and attending middle school, in which time I studied C programming language. And now here I am, a confident individual who is passionate at software development and always willing to learn many things to contribute to society.*

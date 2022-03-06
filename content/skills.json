@@ -1,0 +1,13 @@
+{
+    "coding": {
+        "enough": ["C/C++", "C#", "Golang", "JavaScript", "Lua", "PHP"],
+        "less": ["Bash", "Batch", "Clojure", "Java", "Objective-C", "Python", "VB.NET"],
+        "dsl": ["CSS", "CSV", "CMake", "HTML5", "Makefile", "Markdown", "IDL", "JSON", "Protobuf", "SQL", "XAML", "XML"]
+    },
+    "technologies": {
+        "gui": ["Win32 API", "Microsoft Foundation Classes (MFC)", "wxWidgets", ".NET Framework", "Windows Forms", "Windows Presentation Foundation (WPF)", "Windows Store Apps"],
+        "cg": ["DirectX SDK (Direct3D 9/10/11)", "HLSL", "DirectSound", "DirectInput", "XACT", "DirectXMath", "OpenGL & GLEW", "GLSL", "GLFW", "GLM", "SDL", "SFML", "XNA Framework", "Unity Engine"],
+        "comp": ["Windows", "Linux", "Git", "CMake", "Makefile", "Apache", "MySQL/MariaDB", "Component Object Model (COM)", "gRPC", "Docker"],
+        "web": ["CodeIgniter 3/4", "Bootstrap CSS", "W3.CSS", "Spectre.css", "jQuery", "Node.js", "Webpack", "SASS", "Tailwind CSS", "Babel.js", "React.js", "Vue.js", "Angular.js", "JSON Web Token"]
+    }
+}
